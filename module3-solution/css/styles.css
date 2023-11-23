@@ -68,3 +68,6 @@ h3 {
 	font-size: 2.5em;
 	font-weight: bold;
 }
+body {
+	height: 1000px;
+}
