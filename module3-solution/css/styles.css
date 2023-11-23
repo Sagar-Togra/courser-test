@@ -1,0 +1,70 @@
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1 {
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand a:hover, #navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid white;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+}
+#nav-list a:hover {
+	background: grey;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#header-nav {
+		height: 60px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#header-nav {
+		height: 60px;
+	}
+}
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 60px;
+	}
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+}
+.navbar-header button {
+	vertical-align: middle;
+}
+.tiles {
+	background-color: grey;
+}
+h3 {
+	padding-top: 5px;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+.tiles p {
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 1.2em;
+}
+#menu {
+	font-size: 2.5em;
+	font-weight: bold;
+}
